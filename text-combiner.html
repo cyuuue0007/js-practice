@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>js-practice</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./stylesheets/main.css">
+</head>
+
+<body>
+
+    <!-- 導覽列 -->
+    <div class="layout">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="index.html">🔢 Mini Calculator<br>（迷你加總器）</a></li>
+                <li><a href="text-combiner.html">✂️ Text Combiner<br>（字串合體機）</a></li>
+                <li><a href="#">練習三</a></li>
+                <li><a href="#">練習四</a></li>
+                <li><a href="#">練習五</a></li>
+                <li><a href="#">練習六</a></li>
+            </ul>
+        </nav>
+
+        <!-- 內容 -->
+        <div class="content-container">
+            <main class="content-section">
+                <h1>✂️ Text Combiner（字串合體機）</h1>
+                <p>輸入姓名 + 喜歡的食物，點擊按鈕顯示：「Emma 喜歡吃壽司 🍣」。</p>
+                <div class="content-section card">
+                    <h3>迷你加總器</h3>
+                    <p>主題：變數 / 型別 / 運算</p>
+                    <p>觀念 ：字串操作、變數、簡單輸入顯示</p>
+                    <input type="text" id="nameInput" placeholder="請輸入姓名" />
+                    <input type="text" id="foodInput" placeholder="請輸入喜歡的食物" />
+                    <button id="combineBtn">合體！</button>
+
+                    <p>結果：<span id="combineResult">--</span></p>
+
+                </div>
+            </main>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/text-combiner.js"></script>
+</body>
+
+</html>
