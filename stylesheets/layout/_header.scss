@@ -1,0 +1,36 @@
+/* 左側導覽列 */
+.sidebar {
+  display: flex;
+  justify-content: flex-start;
+  align-items:flex-start;
+  width: 220px;
+  background-color: #333;
+  color: #fff;
+  overflow-y: auto;
+  position: fixed; /* 固定在左邊 */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.sidebar a:hover {
+  background-color: #444;
+}
