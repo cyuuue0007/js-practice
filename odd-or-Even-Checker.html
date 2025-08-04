@@ -16,16 +16,7 @@
 
     <!-- 導覽列 -->
     <div class="layout">
-        <nav class="sidebar">
-            <ul>
-                <li><a href="index.html">🔢 Mini Calculator<br>（迷你加總器）</a></li>
-                <li><a href="text-combiner.html">✂️ Text Combiner<br>（字串合體機）</a></li>
-                <li><a href="odd-or-Even Checker.html">🧮 Odd or Even Checker（奇偶判斷器）</a></li>
-                <li><a href="#">練習四</a></li>
-                <li><a href="#">練習五</a></li>
-                <li><a href="#">練習六</a></li>
-            </ul>
-        </nav>
+        <div id="nav-container"></div>
 
         <!-- 內容 -->
         <div class="content-container">
@@ -37,8 +28,9 @@
                     <p>主題：條件判斷 / 迴圈</p>
                     <p>觀念 ：if/else、% 餘數判斷</p>
 
-                    <input type="number" id="numberInput" placeholder="請輸入數字" />
-                    <button id="checkBtn">判斷奇偶</button>
+                    <input type="text" id="numberInput" placeholder="請輸入數字" />
+                    <button id="checkBtn">判斷</button>
+
                     <p>結果：<span id="result">--</span></p>
 
 
@@ -49,8 +41,12 @@
     </div>
 
     <!-- JS -->
+    <script src="./js/include.js"></script>
+    <script src="./js/nav.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./js/text-combiner.js"></script>
+    <script src="./js/odd-or-even-checker.js"></script>
+
 </body>
 
 </html>
